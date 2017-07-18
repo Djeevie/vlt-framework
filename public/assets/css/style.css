@@ -1,0 +1,56 @@
+body
+{
+    background-color: #111;
+    color: #FFF;
+}
+
+#page-wrapper
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /*background-image: url("http://dev.local/assets/img/bg_login.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;*/
+    z-index: -1;
+}
+
+#auth
+{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#auth-form
+{
+    margin-top: 25px;;
+}
+
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small,
+.h1 small,
+.h2 small,
+.h3 small,
+.h4 small,
+.h5 small,
+.h6 small,
+h1 .small,
+h2 .small,
+h3 .small,
+h4 .small,
+h5 .small,
+h6 .small,
+.h1 .small,
+.h2 .small,
+.h3 .small,
+.h4 .small,
+.h5 .small,
+.h6 .small {
+  color: #aaa;
+}

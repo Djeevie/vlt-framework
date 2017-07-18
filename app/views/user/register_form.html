@@ -1,0 +1,35 @@
+<form class="form-horizontal" method="post">
+    <?php echo Token::GetForm() ?>
+    <div class="form-group">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                <input type="email" class="form-control" id="email" name="email"
+                placeholder="Email address" tabindex="1">
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                <input type="password" class="form-control" id="email" name="password"
+                placeholder="New password" tabindex="1">
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <h5><small>
+                By clicking Sign Up, you agree to our
+                Terms of Service.
+            </small></h5>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-xs-12 col-sm-6 col-md-12 col-lg-12">
+            <button type="submit" name="signup" class="btn btn-success btn-lg"
+            tabindex="3">Sign Up</button>
+        </div>
+    </div>
+</form>
