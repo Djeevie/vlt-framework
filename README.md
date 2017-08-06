@@ -1,3 +1,5 @@
+### Warning: due to a lack of time, I'm not working on this software anymore.
+
 # VLT Framework
 ## A simple PHP 7 framework
 
